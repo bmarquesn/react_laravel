@@ -10,7 +10,7 @@ export default function(props) {
         <div>
             <h2>{ props.titulo }</h2>
             <h3>{ aluno }</h3>
-    <p>Tem nota: { nota } - <strong>{ status }</strong></p>
+            <p>Tem nota: { nota } - <strong>{ status }</strong></p>
         </div>
     )
 }
