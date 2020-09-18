@@ -1,0 +1,26 @@
+.Card {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:3px solid;
+    border-radius:10px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    margin:5pt;
+    min-width: 200pt;
+    max-width: 200pt;
+}
+
+.Title {
+    font-size:20px;
+    font-weight:bold;
+    padding:10px 0;
+    display:flex;
+    justify-content:center;
+}
+
+.Content {
+    background: #fff;
+    color:#000;
+    flex-grow:1;
+    padding:20px;
+}
