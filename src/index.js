@@ -1,5 +1,6 @@
 /** to use CSS */
-import './index.css'
+import './assets/css/index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ReactDOM from 'react-dom';
 /** To use JSX - HTML inside in React */
