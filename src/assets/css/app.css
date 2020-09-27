@@ -3,3 +3,7 @@
     flex-wrap:wrap;
     justify-content:center;
 }
+
+.modal {
+    color:#000;
+}

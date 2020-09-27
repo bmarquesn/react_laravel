@@ -4,10 +4,12 @@ import '../assets/css/app.css'
 import React from 'react';
 
 import Card from '../components/layout/Card';
+
 import Primeiro from '../components/basicos/Primeiro';
 import ComParametro from '../components/basicos/ComParametro';
 import Fragmento from '../components/basicos/Fragmento';
 import Aleatorio from '../components/basicos/Aleatorio';
+import AcoesBD from '../components/basicos/AcoesBD';
 
 /** os parametros dos elementos podem estar em linhas diferentes */
 const html = <div id="App">
@@ -32,6 +34,9 @@ const html = <div id="App">
         </Card>
         <Card titulo="#04 - Primeiro" color="#588c73">
             <Primeiro></Primeiro>
+        </Card>
+        <Card titulo="#05 - Listar Registros BD" color="#7396FF">
+            <AcoesBD></AcoesBD>
         </Card>
     </div>
 </div>;
