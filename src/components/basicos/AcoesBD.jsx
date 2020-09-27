@@ -61,7 +61,7 @@ export default function(props) {
                     <div id="list_users"></div>
                 </Modal.Body>
                 <Modal.Footer>
-                    <button onClick={hideModalList}>Fechar</button>
+                    <button onClick={hideModalList} className="btn btn-danger">Fechar</button>
                 </Modal.Footer>
             </Modal>
         </div>
